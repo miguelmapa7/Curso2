@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_caja1"
+        android:layout_width="match_parent"
+        android:layout_height="154dp"
+        android:text="@string/Texto_Default"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_eventos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_eventos"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_eventos2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn2_eventos"
+        android:textSize="30sp" />
+</LinearLayout>
